@@ -1,8 +1,12 @@
-enum SeatChoice{
+enum SeatChoice {
   AISLE = 4,
   MIDDLE,
   WINDOW = "window",
-  FOURTH = 10
+  FOURTH = 10,
 }
 
-export{}
+export {};
+
+let val: unknown;
+val = true;
+console.log(val);
