@@ -28,3 +28,10 @@ function area(arg: Shape) {
 let a: Shape = { kind: "circle", radius: 5 };
 
 area(a);
+
+
+type A = string | number ;
+
+type B = number | boolean;
+ 
+type C = A & B; 
